@@ -121,33 +121,62 @@
             </div>
         </section>
     </header>
-    <main class="pt-[50px] px-[150px]">
+    <main >
         <!-- Deal of the day section -->
-        <section class=" bg-red-600">
+        <section class="pt-[100px] px-[150px]">
             <!-- deal of the container -->
-            <div>
+            <div class="flex justify-between mb-[48px]">
                 <!-- deal of the content -->
                 <div>
-                    <h1>Deal of the day</h1>
-                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+                    <h1 class="font-extrabold text-5xl text-[#121212] pb-[24px]">Deal of the day</h1>
+                    <p class="font-medium text-base text-[#12121299]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
+                    Latin literature from 45 BC,
                     making it over 2000 years old.</p>
                 </div>
                 <!-- deal of the timer -->
-                <div>
-                 
+                <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span class="text-[#121212]" style="--value:29;">
+                                <!--start icon -->
+                                
+                                <!--end icon -->
+                            </span>
+                        </span>
+                        <p class="text-[#12121299] font-medium">days</p>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span class="text-[#121212]" style="--value:15;"></span>
+                        </span>
+                        <p class="text-[#12121299] font-medium">hours</p>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span class="text-[#121212]" style="--value:24;"></span>
+                        </span>
+                        <p class="text-[#12121299] font-medium">min</p>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span class="text-[#121212]" style="--value:08;"></span>
+                        </span>
+                        <p class="text-[#12121299] font-medium">sec</p>
+                    </div>
                 </div>
+                <!--end deal of the timer -->
             </div>
 
             <!-- deal of the card -->
             <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-                <!-- first review -->
-                <div class="card bg-base-100 p-9 border border-gray-400">
+                <!-- first card -->
+                <div class="card bg-base-100 p-9">
                     <figure><img class="w-[106px] h-[131px]" src="./images/deal-fruit6.png" alt="Shoes" /></figure>
                     <div class="card-body p-[0px]">
                        
                         <div class="text-center space-y-4 mt-4">
                             <h4 class="text-sm font-semibold text-[#121212]">12.90$ - 18.85$</h4>
-                            <p>Apples</p>
+                            <p class="text-base font-medium text-[#12121299]">Apples</p>
                         </div>
 
                         <!-- rating -->
@@ -165,19 +194,19 @@
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
                         </div>
                         <!-- end rating -->
-                        <div>
-                            <p class="text-center">Details</p>
+                        <div class="text-center font-bold text-lg text-[#F85559]">
+                            <a href="#">Details</a>
                         </div>
                     </div>
                 </div>
-                <!-- second review -->
-                <div class="card bg-base-100 p-9 border border-gray-400">
+                <!-- second card -->
+                <div class="card bg-base-100 p-9">
                     <figure><img class="w-[106px] h-[131px]" src="./images/deal-fruit7.png" alt="Shoes" /></figure>
                     <div class="card-body p-[0px]">
                 
                         <div class="text-center space-y-4 mt-4">
                             <h4 class="text-sm font-semibold text-[#121212]">12.90$ - 18.85$</h4>
-                            <p>Orange</p>
+                            <p class="text-base font-medium text-[#12121299]">Orange</p>
                         </div>
                 
                         <!-- rating -->
@@ -195,19 +224,19 @@
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
                         </div>
                         <!-- end rating -->
-                        <div>
-                            <p class="text-center">Details</p>
+                        <div class="text-center font-bold text-lg text-[#F85559]">
+                            <a href="#">Details</a>
                         </div>
                     </div>
                 </div>
-                <!-- third review -->
-                <div class="card bg-base-100 p-9 border border-gray-400">
+                <!-- third card -->
+                <div class="card bg-base-100 p-9">
                     <figure><img class="w-[106px] h-[131px]" src="./images/deal-fruit8.png" alt="Shoes" /></figure>
                     <div class="card-body p-[0px]">
                 
                         <div class="text-center space-y-4 mt-4">
                             <h4 class="text-sm font-semibold text-[#121212]">12.90$ - 18.85$</h4>
-                            <p>Red Dragon</p>
+                            <p class="text-base font-medium text-[#12121299]">Red Dragon</p>
                         </div>
                 
                         <!-- rating -->
@@ -225,19 +254,19 @@
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
                         </div>
                         <!-- end rating -->
-                        <div>
-                            <p class="text-center">Details</p>
+                        <div class="text-center font-bold text-lg text-[#F85559]">
+                            <a href="#">Details</a>
                         </div>
                     </div>
                 </div>
-                <!-- forth review -->
-                <div class="card bg-base-100 p-9 border border-gray-400">
+                <!-- forth card -->
+                <div class="card bg-base-100 p-9">
                     <figure><img class="w-[106px] h-[131px]" src="./images/deal-fruit9.png" alt="Shoes" /></figure>
                     <div class="card-body p-[0px]">
                 
                         <div class="text-center space-y-4 mt-4">
                             <h4 class="text-sm font-semibold text-[#121212]">12.90$ - 18.85$</h4>
-                            <p>Apples</p>
+                            <p class="text-base font-medium text-[#12121299]">Banana</p>
                         </div>
                 
                         <!-- rating -->
@@ -255,14 +284,15 @@
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
                         </div>
                         <!-- end rating -->
-                        <div>
-                            <p class="text-center">Details</p>
+                        <div class="text-center font-bold text-lg text-[#F85559]">
+                            <a href="#">Details</a>
                         </div>
                     </div>
                 </div>
             </div>
             <!--end deal of the card -->
         </section>
+        <!--end Deal of the day section -->
     </main>
     <footer>
 
