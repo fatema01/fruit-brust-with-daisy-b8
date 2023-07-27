@@ -262,7 +262,7 @@
                 <!-- first card -->
                 <div
                     class="flex flex-col justify-center items-center border border-[#1212121A] rounded-lg w-[342px] h-[477px]">
-                    <div class="w-[106px] h-[131px] mt-12">
+                    <div class="w-[90px] h-[120px] mt-12">
                         <img class="w-full h-full" src="./images/deal-fruit6.png" alt="">
                     </div>
                     <h3 class="text-[#121212] font-bold text-2xl my-12">12.90$ - 18.85$</h3>
@@ -289,9 +289,51 @@
                             fill="#FBC0A8" />
                     </svg>
                     <!--end rating -->
-                    <div class="text-center font-bold text-lg text-[#F85559] pt-[30px] pb-[50px]">
-                        <a href="#">Details</a>
+                    <!-- button modal -->
+                        <!-- modal start -->
+                        
+                        <div>
+                        <button class="font-bold text-lg text-[#F85559] pt-[30px] pb-[50px]" onclick="my_modal_1.showModal()">Details</button>
+                        <dialog id="my_modal_1" class="modal">
+                            <form method="dialog" class="modal-box flex flex-col justify-center items-center">
+                                
+                                <div class="items-center">
+                                    <img class="w-[200px] h-[200px]" src="./images/deal-fruit6.png" alt="">
+                                </div>
+                                <h3 class="font-extrabold text-[#121212] text-4xl text-center">Apples</h3>
+                                <p class="py-4 text-center text-[#12121299] text-base font-medium">Professional employees are there for you to pick the most <br>
+                                amazing and fresh fruits.</p>
+                                <!--start rating -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="213" height="32" viewBox="0 0 213 32" fill="none">
+                                    <path
+                                        d="M61.1369 0L67.202 9.34122L77.9603 12.2229L70.9505 20.8779L71.5343 32L61.1369 28.0078L50.7395 32L51.3233 20.8779L44.3135 12.2229L55.0718 9.34122L61.1369 0Z"
+                                        fill="#F85559" />
+                                    <path d="M61.2051 0L67.2702 9.34122L78.0285 12.2229L71.0187 20.8779L71.6025 32L61.2051 28.0078V0Z" fill="#FBC0A8" />
+                                    <path
+                                        d="M16.8234 0L22.8886 9.34122L33.6468 12.2229L26.637 20.8779L27.2208 32L16.8234 28.0078L6.42603 32L7.00981 20.8779L0 12.2229L10.7583 9.34122L16.8234 0Z"
+                                        fill="#F85559" />
+                                    <path
+                                        d="M106.157 0L112.222 9.34122L122.98 12.2229L115.97 20.8779L116.554 32L106.157 28.0078L95.7594 32L96.3431 20.8779L89.3333 12.2229L100.092 9.34122L106.157 0Z"
+                                        fill="#FBC0A8" />
+                                    <path
+                                        d="M195.49 0L201.555 9.34122L212.313 12.2229L205.304 20.8779L205.887 32L195.49 28.0078L185.093 32L185.676 20.8779L178.667 12.2229L189.425 9.34122L195.49 0Z"
+                                        fill="#FBC0A8" />
+                                    <path
+                                        d="M151.49 0L157.555 9.34122L168.313 12.2229L161.304 20.8779L161.887 32L151.49 28.0078L141.093 32L141.676 20.8779L134.667 12.2229L145.425 9.34122L151.49 0Z"
+                                        fill="#FBC0A8" />
+                                </svg>
+                                <!-- end rating -->
+                                <!-- button -->
+                                <div class="">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button class="px-[20px] py-[10px] border-2 border-[#F85559] rounded-lg text-[#F85559] bg-white font-extrabold text-xl mt-[40px]">Close</button>
+                                    <button class=" px-[20px] py-[12px] border-none rounded-lg text-white bg-[#F85559] font-extrabold text-xl ml-[30px]">Buy Now</button>
+                                </div>
+                            </form>
+                        </dialog>
+                        
                     </div>
+                    <!-- end modal -->
 
                 </div>
                 <!-- second card -->
@@ -324,9 +366,56 @@
                             fill="#FBC0A8" />
                     </svg>
                     <!--end rating -->
-                    <div class="text-center font-bold text-lg text-[#F85559] pt-[30px] pb-[50px]">
-                        <a href="#">Details</a>
+                    <!-- modal start -->
+                    
+                    <div>
+                        <button class="font-bold text-lg text-[#F85559] pt-[30px] pb-[50px]"
+                            onclick="my_modal_2.showModal()">Details</button>
+                        <dialog id="my_modal_2" class="modal">
+                            <form method="dialog" class="modal-box flex flex-col justify-center items-center">
+                    
+                                <div class="items-center">
+                                    <img class="w-[200px] h-[200px]" src="./images/deal-fruit7.png" alt="">
+                                </div>
+                                <h3 class="font-extrabold text-[#121212] text-4xl text-center">Orange</h3>
+                                <p class="py-4 text-center text-[#12121299] text-base font-medium">Professional employees are there for you
+                                    to pick the most <br>
+                                    amazing and fresh fruits.</p>
+                                <!--start rating -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="213" height="32" viewBox="0 0 213 32" fill="none">
+                                    <path
+                                        d="M61.1369 0L67.202 9.34122L77.9603 12.2229L70.9505 20.8779L71.5343 32L61.1369 28.0078L50.7395 32L51.3233 20.8779L44.3135 12.2229L55.0718 9.34122L61.1369 0Z"
+                                        fill="#F85559" />
+                                    <path d="M61.2051 0L67.2702 9.34122L78.0285 12.2229L71.0187 20.8779L71.6025 32L61.2051 28.0078V0Z"
+                                        fill="#FBC0A8" />
+                                    <path
+                                        d="M16.8234 0L22.8886 9.34122L33.6468 12.2229L26.637 20.8779L27.2208 32L16.8234 28.0078L6.42603 32L7.00981 20.8779L0 12.2229L10.7583 9.34122L16.8234 0Z"
+                                        fill="#F85559" />
+                                    <path
+                                        d="M106.157 0L112.222 9.34122L122.98 12.2229L115.97 20.8779L116.554 32L106.157 28.0078L95.7594 32L96.3431 20.8779L89.3333 12.2229L100.092 9.34122L106.157 0Z"
+                                        fill="#FBC0A8" />
+                                    <path
+                                        d="M195.49 0L201.555 9.34122L212.313 12.2229L205.304 20.8779L205.887 32L195.49 28.0078L185.093 32L185.676 20.8779L178.667 12.2229L189.425 9.34122L195.49 0Z"
+                                        fill="#FBC0A8" />
+                                    <path
+                                        d="M151.49 0L157.555 9.34122L168.313 12.2229L161.304 20.8779L161.887 32L151.49 28.0078L141.093 32L141.676 20.8779L134.667 12.2229L145.425 9.34122L151.49 0Z"
+                                        fill="#FBC0A8" />
+                                </svg>
+                                <!-- end rating -->
+                                <!-- button -->
+                                <div class="">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="px-[20px] py-[10px] border-2 border-[#F85559] rounded-lg text-[#F85559] bg-white font-extrabold text-xl mt-[40px]">Close</button>
+                                    <button
+                                        class=" px-[20px] py-[12px] border-none rounded-lg text-white bg-[#F85559] font-extrabold text-xl ml-[30px]">Buy
+                                        Now</button>
+                                </div>
+                            </form>
+                        </dialog>
+                    
                     </div>
+                    <!-- end modal -->
 
                 </div>
                 <!-- third card -->
@@ -359,9 +448,56 @@
                             fill="#FBC0A8" />
                     </svg>
                     <!--end rating -->
-                    <div class="text-center font-bold text-lg text-[#F85559] pt-[30px] pb-[50px]">
-                        <a href="#">Details</a>
+                    <!-- modal start -->
+                    
+                    <div>
+                        <button class="font-bold text-lg text-[#F85559] pt-[30px] pb-[50px]"
+                            onclick="my_modal_3.showModal()">Details</button>
+                        <dialog id="my_modal_3" class="modal">
+                            <form method="dialog" class="modal-box flex flex-col justify-center items-center">
+                    
+                                <div class="items-center">
+                                    <img class="w-[200px] h-[200px]" src="./images/deal-fruit8.png" alt="">
+                                </div>
+                                <h3 class="font-extrabold text-[#121212] text-4xl text-center">Red Dragon</h3>
+                                <p class="py-4 text-center text-[#12121299] text-base font-medium">Professional employees are there for you
+                                    to pick the most <br>
+                                    amazing and fresh fruits.</p>
+                                <!--start rating -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="213" height="32" viewBox="0 0 213 32" fill="none">
+                                    <path
+                                        d="M61.1369 0L67.202 9.34122L77.9603 12.2229L70.9505 20.8779L71.5343 32L61.1369 28.0078L50.7395 32L51.3233 20.8779L44.3135 12.2229L55.0718 9.34122L61.1369 0Z"
+                                        fill="#F85559" />
+                                    <path d="M61.2051 0L67.2702 9.34122L78.0285 12.2229L71.0187 20.8779L71.6025 32L61.2051 28.0078V0Z"
+                                        fill="#FBC0A8" />
+                                    <path
+                                        d="M16.8234 0L22.8886 9.34122L33.6468 12.2229L26.637 20.8779L27.2208 32L16.8234 28.0078L6.42603 32L7.00981 20.8779L0 12.2229L10.7583 9.34122L16.8234 0Z"
+                                        fill="#F85559" />
+                                    <path
+                                        d="M106.157 0L112.222 9.34122L122.98 12.2229L115.97 20.8779L116.554 32L106.157 28.0078L95.7594 32L96.3431 20.8779L89.3333 12.2229L100.092 9.34122L106.157 0Z"
+                                        fill="#FBC0A8" />
+                                    <path
+                                        d="M195.49 0L201.555 9.34122L212.313 12.2229L205.304 20.8779L205.887 32L195.49 28.0078L185.093 32L185.676 20.8779L178.667 12.2229L189.425 9.34122L195.49 0Z"
+                                        fill="#FBC0A8" />
+                                    <path
+                                        d="M151.49 0L157.555 9.34122L168.313 12.2229L161.304 20.8779L161.887 32L151.49 28.0078L141.093 32L141.676 20.8779L134.667 12.2229L145.425 9.34122L151.49 0Z"
+                                        fill="#FBC0A8" />
+                                </svg>
+                                <!-- end rating -->
+                                <!-- button -->
+                                <div class="">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="px-[20px] py-[10px] border-2 border-[#F85559] rounded-lg text-[#F85559] bg-white font-extrabold text-xl mt-[40px]">Close</button>
+                                    <button
+                                        class=" px-[20px] py-[12px] border-none rounded-lg text-white bg-[#F85559] font-extrabold text-xl ml-[30px]">Buy
+                                        Now</button>
+                                </div>
+                            </form>
+                        </dialog>
+                    
                     </div>
+                    <!-- end modal -->
 
                 </div>
                 <!-- forth card -->
@@ -394,9 +530,56 @@
                             fill="#FBC0A8" />
                     </svg>
                     <!--end rating -->
-                    <div class="text-center font-bold text-lg text-[#F85559] pt-[30px] pb-[50px]">
-                        <a href="#">Details</a>
+                    <!-- modal start -->
+                    
+                    <div>
+                        <button class="font-bold text-lg text-[#F85559] pt-[30px] pb-[50px]"
+                            onclick="my_modal_4.showModal()">Details</button>
+                        <dialog id="my_modal_4" class="modal">
+                            <form method="dialog" class="modal-box flex flex-col justify-center items-center">
+                    
+                                <div class="items-center">
+                                    <img class="w-[200px] h-[200px]" src="./images/deal-fruit9.png" alt="">
+                                </div>
+                                <h3 class="font-extrabold text-[#121212] text-4xl text-center">Banana</h3>
+                                <p class="py-4 text-center text-[#12121299] text-base font-medium">Professional employees are there for you
+                                    to pick the most <br>
+                                    amazing and fresh fruits.</p>
+                                <!--start rating -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="213" height="32" viewBox="0 0 213 32" fill="none">
+                                    <path
+                                        d="M61.1369 0L67.202 9.34122L77.9603 12.2229L70.9505 20.8779L71.5343 32L61.1369 28.0078L50.7395 32L51.3233 20.8779L44.3135 12.2229L55.0718 9.34122L61.1369 0Z"
+                                        fill="#F85559" />
+                                    <path d="M61.2051 0L67.2702 9.34122L78.0285 12.2229L71.0187 20.8779L71.6025 32L61.2051 28.0078V0Z"
+                                        fill="#FBC0A8" />
+                                    <path
+                                        d="M16.8234 0L22.8886 9.34122L33.6468 12.2229L26.637 20.8779L27.2208 32L16.8234 28.0078L6.42603 32L7.00981 20.8779L0 12.2229L10.7583 9.34122L16.8234 0Z"
+                                        fill="#F85559" />
+                                    <path
+                                        d="M106.157 0L112.222 9.34122L122.98 12.2229L115.97 20.8779L116.554 32L106.157 28.0078L95.7594 32L96.3431 20.8779L89.3333 12.2229L100.092 9.34122L106.157 0Z"
+                                        fill="#FBC0A8" />
+                                    <path
+                                        d="M195.49 0L201.555 9.34122L212.313 12.2229L205.304 20.8779L205.887 32L195.49 28.0078L185.093 32L185.676 20.8779L178.667 12.2229L189.425 9.34122L195.49 0Z"
+                                        fill="#FBC0A8" />
+                                    <path
+                                        d="M151.49 0L157.555 9.34122L168.313 12.2229L161.304 20.8779L161.887 32L151.49 28.0078L141.093 32L141.676 20.8779L134.667 12.2229L145.425 9.34122L151.49 0Z"
+                                        fill="#FBC0A8" />
+                                </svg>
+                                <!-- end rating -->
+                                <!-- button -->
+                                <div class="">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="px-[20px] py-[10px] border-2 border-[#F85559] rounded-lg text-[#F85559] bg-white font-extrabold text-xl mt-[40px]">Close</button>
+                                    <button
+                                        class=" px-[20px] py-[12px] border-none rounded-lg text-white bg-[#F85559] font-extrabold text-xl ml-[30px]">Buy
+                                        Now</button>
+                                </div>
+                            </form>
+                        </dialog>
+                    
                     </div>
+                    <!-- end modal -->
 
                 </div>
             </div>
